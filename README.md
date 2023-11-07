@@ -1,7 +1,8 @@
 -------------------------------------------------------------------------------------------
+TOPIC: DEPLOYING A STATIC WEBPAGE ON KUBERNETES CLUSTER USING DOCKER HUB.
+-------------------------------------------------------------------------------------------
 AUTHOR: YATIN GAMBHIR
 DATE: 07 NOVEMBER 2023
-TOPIC: DEPLOYING A STATIC WEBPAGE ON KUBERNETES CLUSTER USING DOCKER HUB.
 -------------------------------------------------------------------------------------------
 
 STEP 1 - I DEPLOYED A SIMPLE STATIC HTML WEBPAGE ON DOCKER CONTAINER AND PUSHED THE IMAGE INTO THE DOCKER HUB.
