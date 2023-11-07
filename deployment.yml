@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: simple-web-app
+  labels:
+    app: simple-web-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: simple-web-app
+  template:
+    metadata:
+      labels:
+        app: simple-web-app
+    spec:
+      containers:
+      - name: simple-web-app
+        image: yatingambhir/sample-web-app-repository:v1
+        ports:
+        - containerPort: 80
